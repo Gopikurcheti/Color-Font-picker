@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color & Font picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 style="font-size:52px; color:red;">COLOR & FONT PICKER</h1>
+
+        <div id="container">
+               <h2 contenteditable="true" id="head">Type your text</h2>
+
+               <div>
+
+                <div>
+                   <h3>Choose your text color</h3>
+                   <button style="background-color:red;" onclick="changeTextColor('red')"></button>
+                   
+                   <button style="background-color:green;" onclick="changeTextColor('green')"></button>
+                   
+                   <button style="background-color:yellow;" onclick="changeTextColor('yellow')"></button>
+                   
+                   <button style="background-color:blue;" onclick="changeTextColor('blue')"></button>
+                   
+                   <button style="background-color:pink;" onclick="changeTextColor('pink')"></button>
+                   
+                   <button style="background-color:hotpink;" onclick="changeTextColor('hotpink')"></button>
+
+               <button style="background-color:orange;" onclick="changeTextColor('orange')"></button>
+
+               <button style="background-color:purple;" onclick="changeTextColor('purple')"></button>
+               
+               
+            </div>
+
+            <div>
+            <h3>Choose your background color</h3>
+            
+                <button style="background-color:red;" onclick="changeBackgroundColor('red')"></button>
+             
+
+               <button style="background-color:green;" onclick="changeBackgroundColor('green')"></button>
+
+               <button style="background-color:yellow;" onclick="changeBackgroundColor('yellow')"></button>
+
+               <button style="background-color:blue;" onclick="changeBackgroundColor('blue')"></button>
+
+               <button style="background-color:pink;" onclick="changeBackgroundColor('pink')"></button>
+
+               <button style="background-color:hotpink;" onclick="changeBackgroundColor('hotpink')"></button>
+
+               <button style="background-color:orange;" onclick="changeBackgroundColor('orange')"></button>
+
+               <button style="background-color:purple;" onclick="changeBackgroundColor('purple')"></button>
+
+            </div>
+
+            <div>
+                <h3>Choose your font</h3>
+                <br>
+                <span style="font-family: verdana;" onclick="changeFont('verdana')">Hello</span>
+
+                <span style="font-family: cursive;" onclick="changeFont('cursive')">Hello</span>
+
+                <span style="font-family: Arial;" onclick="changeFont('Arial')">Hello</span>
+
+                <span style="font-family: Impact;" onclick="changeFont('Impact')">Hello</span>
+
+                <span style="font-family: Helvetica;" onclick="changeFont('Helvetica')">Hello</span>
+
+                <span style="font-family: Lucida Sans;" onclick="changeFont('Lucida Sans')">Hello</span>
+
+                <span style="font-family: monospace;" onclick="changeFont('monospace')">Hello</span>
+
+                <span style="font-family: Georgia;" onclick="changeFont('Georgia')">Hello</span>
+
+                
+            </div>
+
+               </div>
+
+              
+
+    </div>
+</body>
+
+    <script src="script.js"></script>
+</html>
